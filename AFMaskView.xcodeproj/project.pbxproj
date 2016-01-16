@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E80FB27F1C4A24CF003BF2E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80FB27E1C4A24CF003BF2E3 /* AppDelegate.swift */; };
+		E80FB2811C4A24CF003BF2E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80FB2801C4A24CF003BF2E3 /* ViewController.swift */; };
+		E80FB2841C4A24CF003BF2E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80FB2821C4A24CF003BF2E3 /* Main.storyboard */; };
+		E80FB2861C4A24CF003BF2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80FB2851C4A24CF003BF2E3 /* Assets.xcassets */; };
+		E80FB2891C4A24CF003BF2E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80FB2871C4A24CF003BF2E3 /* LaunchScreen.storyboard */; };
+		E80FB2961C4A2525003BF2E3 /* AFMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80FB2951C4A2525003BF2E3 /* AFMaskView.swift */; };
+		E80FB2991C4A256C003BF2E3 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E80FB2981C4A256C003BF2E3 /* UIImage+ImageEffects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E80FB27B1C4A24CF003BF2E3 /* AFMaskView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFMaskView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80FB27E1C4A24CF003BF2E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E80FB2801C4A24CF003BF2E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E80FB2831C4A24CF003BF2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E80FB2851C4A24CF003BF2E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E80FB2881C4A24CF003BF2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E80FB28A1C4A24CF003BF2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E80FB2921C4A2516003BF2E3 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		E80FB2951C4A2525003BF2E3 /* AFMaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFMaskView.swift; sourceTree = "<group>"; };
+		E80FB2971C4A256B003BF2E3 /* AFMaskView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFMaskView-Bridging-Header.h"; sourceTree = "<group>"; };
+		E80FB2981C4A256C003BF2E3 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E80FB2781C4A24CF003BF2E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E80FB2721C4A24CF003BF2E3 = {
+			isa = PBXGroup;
+			children = (
+				E80FB27D1C4A24CF003BF2E3 /* AFMaskView */,
+				E80FB27C1C4A24CF003BF2E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E80FB27C1C4A24CF003BF2E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E80FB27B1C4A24CF003BF2E3 /* AFMaskView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E80FB27D1C4A24CF003BF2E3 /* AFMaskView */ = {
+			isa = PBXGroup;
+			children = (
+				E80FB2901C4A2516003BF2E3 /* AFMaskView */,
+				E80FB27E1C4A24CF003BF2E3 /* AppDelegate.swift */,
+				E80FB2801C4A24CF003BF2E3 /* ViewController.swift */,
+				E80FB2821C4A24CF003BF2E3 /* Main.storyboard */,
+				E80FB2851C4A24CF003BF2E3 /* Assets.xcassets */,
+				E80FB2871C4A24CF003BF2E3 /* LaunchScreen.storyboard */,
+				E80FB28A1C4A24CF003BF2E3 /* Info.plist */,
+			);
+			path = AFMaskView;
+			sourceTree = "<group>";
+		};
+		E80FB2901C4A2516003BF2E3 /* AFMaskView */ = {
+			isa = PBXGroup;
+			children = (
+				E80FB2911C4A2516003BF2E3 /* UIImage+ImageEffects */,
+				E80FB2951C4A2525003BF2E3 /* AFMaskView.swift */,
+			);
+			path = AFMaskView;
+			sourceTree = "<group>";
+		};
+		E80FB2911C4A2516003BF2E3 /* UIImage+ImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				E80FB2921C4A2516003BF2E3 /* UIImage+ImageEffects.h */,
+				E80FB2981C4A256C003BF2E3 /* UIImage+ImageEffects.m */,
+				E80FB2971C4A256B003BF2E3 /* AFMaskView-Bridging-Header.h */,
+			);
+			path = "UIImage+ImageEffects";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E80FB27A1C4A24CF003BF2E3 /* AFMaskView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E80FB28D1C4A24CF003BF2E3 /* Build configuration list for PBXNativeTarget "AFMaskView" */;
+			buildPhases = (
+				E80FB2771C4A24CF003BF2E3 /* Sources */,
+				E80FB2781C4A24CF003BF2E3 /* Frameworks */,
+				E80FB2791C4A24CF003BF2E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFMaskView;
+			productName = AFMaskView;
+			productReference = E80FB27B1C4A24CF003BF2E3 /* AFMaskView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E80FB2731C4A24CF003BF2E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AfryMasker;
+				TargetAttributes = {
+					E80FB27A1C4A24CF003BF2E3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MG63G9T3GS;
+					};
+				};
+			};
+			buildConfigurationList = E80FB2761C4A24CF003BF2E3 /* Build configuration list for PBXProject "AFMaskView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E80FB2721C4A24CF003BF2E3;
+			productRefGroup = E80FB27C1C4A24CF003BF2E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E80FB27A1C4A24CF003BF2E3 /* AFMaskView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E80FB2791C4A24CF003BF2E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80FB2891C4A24CF003BF2E3 /* LaunchScreen.storyboard in Resources */,
+				E80FB2861C4A24CF003BF2E3 /* Assets.xcassets in Resources */,
+				E80FB2841C4A24CF003BF2E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E80FB2771C4A24CF003BF2E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80FB2991C4A256C003BF2E3 /* UIImage+ImageEffects.m in Sources */,
+				E80FB2811C4A24CF003BF2E3 /* ViewController.swift in Sources */,
+				E80FB2961C4A2525003BF2E3 /* AFMaskView.swift in Sources */,
+				E80FB27F1C4A24CF003BF2E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E80FB2821C4A24CF003BF2E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E80FB2831C4A24CF003BF2E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E80FB2871C4A24CF003BF2E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E80FB2881C4A24CF003BF2E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E80FB28B1C4A24CF003BF2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E80FB28C1C4A24CF003BF2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E80FB28E1C4A24CF003BF2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = AFMaskView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Afry.AFMaskView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AFMaskView/AFMaskView/UIImage+ImageEffects/AFMaskView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E80FB28F1C4A24CF003BF2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = AFMaskView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Afry.AFMaskView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AFMaskView/AFMaskView/UIImage+ImageEffects/AFMaskView-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E80FB2761C4A24CF003BF2E3 /* Build configuration list for PBXProject "AFMaskView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E80FB28B1C4A24CF003BF2E3 /* Debug */,
+				E80FB28C1C4A24CF003BF2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E80FB28D1C4A24CF003BF2E3 /* Build configuration list for PBXNativeTarget "AFMaskView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E80FB28E1C4A24CF003BF2E3 /* Debug */,
+				E80FB28F1C4A24CF003BF2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E80FB2731C4A24CF003BF2E3 /* Project object */;
+}
